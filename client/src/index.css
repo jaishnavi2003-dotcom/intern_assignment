@@ -1,0 +1,11 @@
+body{ font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5;}
+.app-root{ max-width:900px; margin:20px auto; background:#fff; padding:20px; border-radius:6px;}
+.app-header{ display:flex; justify-content:space-between; align-items:center; margin-bottom:20px;}
+.card{ background:#fafafa; padding:12px; border:1px solid #eee; border-radius:6px;}
+label{ display:block; margin-top:8px; }
+input{ padding:8px; width:100%; margin-top:4px; box-sizing:border-box;}
+button{ margin-top:10px; padding:8px 12px;}
+.err{ color:crimson; margin-bottom:8px;}
+.task-list{ list-style:none; padding:0;}
+.task-list li{ padding:8px; border-bottom:1px solid #eee; display:flex; justify-content:space-between; align-items:center;}
+.task-list li.done span{ text-decoration:line-through; color:gray;}
