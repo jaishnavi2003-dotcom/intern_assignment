@@ -58,7 +58,7 @@ export default function Dashboard(){
         {tasks.map(t=>(
           <li key={t._id} className={t.completed? 'done':''}>
             <span onClick={()=>toggleComplete(t._id)} style={{cursor:'pointer'}}>{t.title}</span>
-            <button onClick={()=>deleteTask(t._1d)}>Delete</button>
+            <button onClick={()=>deleteTask(t._id)}>Delete</button>
           </li>
         ))}
       </ul>
